@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	unsigned int n;
+	int n;
 	long long a[50];
 	a[0]=1;a[1]=1;
 	scanf("%u",&n);
@@ -11,7 +11,7 @@ int main()
 		scanf("%u",&n);
 	}
 	
-	if(n==0) printf("%0.00"); 
+	if(n==0) printf("0.00"); 
 	if(n==1||n==2)
 	printf("1.00");
 	for(int i=2;i<n;i++)
